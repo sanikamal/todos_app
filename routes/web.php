@@ -19,4 +19,5 @@ Route::get('/', function () {
 //     return view('about');
 // });
 
-Route::get('about','AboutController@index');
+// Route::get('about','AboutController@index');
+Route::get('todos','TodosController@index');
